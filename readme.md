@@ -1,6 +1,6 @@
 # 🚀 Create a React-Tailwind Project
 
-This repository provides two convenient scripts to create a new React project using Vite and configure it with Tailwind CSS and TypeScript. Choose the version that suits your
+This repository provides a few convenient scripts to create a new React project using Vite and configure it with Tailwind CSS(with scss support) and TypeScript. Choose the version that suits your
 preferences:
 
 1. NPM usage
