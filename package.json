@@ -1,0 +1,26 @@
+{
+  "name": "create-tailwind-react",
+  "version": "1.0.0",
+  "description": "A utility for createing a react typescript tailwind project with scss support",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ricksinclair/create-tailwind-react.git"
+  },
+  "keywords": [
+    "tailwind",
+    "tailwindcss",
+    "scss",
+    "typescript",
+    "vite"
+  ],
+  "author": "Ulric Todman",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ricksinclair/create-tailwind-react/issues"
+  },
+  "homepage": "https://github.com/ricksinclair/create-tailwind-react#readme"
+}
