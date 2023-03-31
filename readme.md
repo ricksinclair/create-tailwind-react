@@ -22,7 +22,7 @@ Both versions will create a new React project with Vite, install Tailwind CSS an
 
 After running the script, start using Tailwind's utility classes to style your content! 🎨
 
-💡 Don't forget to check the generated `tailwind.config.cjs` and `src/index.css` files.
+💡 Don't forget to check the generated `tailwind.config.js` and `src/index.css` files.
 
 🎉 Happy coding! 🥳
 
