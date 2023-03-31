@@ -25,9 +25,13 @@ async function runCommand(command) {
 (async () => {
   try {
     // Create the project using Vite with the react-ts template
-    await runCommand(`npm create vite@latest ${projectName} -- --template react-ts`);
+    await runCommand(
+      `npm create vite@latest ${projectName} -- --template react-ts`
+    );
     // Install dependencies and set up Tailwind CSS
-    await runCommand(`cd ${projectName} && npm install -D tailwindcss postcss autoprefixer sass`);
+    await runCommand(
+      `cd ${projectName} && npm install -D tailwindcss postcss autoprefixer sass`
+    );
     await runCommand(`cd ${projectName} && npx tailwindcss init -p`);
 
     // Replace the content of tailwind.config.js
@@ -50,10 +54,16 @@ async function runCommand(command) {
 
     fs.writeFileSync(indexScssPath, indexScssContent);
 
-    console.log('The new tailwind.config.js file has been created with the specified contents.');
-    console.log('The new ./src/index.scss file has been created with the specified contents.');
-    console.log("Start using Tailwind's utility classes to style your content.");
-
+    console.log(
+      'The new tailwind.config.js file has been created with the specified contents.'
+    );
+    console.log(
+      'The new ./src/index.scss file has been created with the specified contents.'
+    );
+    console.log(
+      "Start using Tailwind's utility classes to style your content."
+    );
+    console.log("run 'npm run dev' to start the development server.");
   } catch (error) {
     console.error('Error:', error);
   }

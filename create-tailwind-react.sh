@@ -38,3 +38,5 @@ echo "The new tailwind.config.js file has been created with the specified conten
 echo "The new ./src/index.scss file has been created with the specified contents."
 echo "The new vite.config.js file has been created with the specified contents."
 echo "Start using Tailwind's utility classes to style your content."
+echo "Run 'npm run dev' to start the development server."
+

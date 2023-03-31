@@ -66,6 +66,7 @@ async function runCommand(command) {
     console.log(
       "Start using Tailwind's utility classes to style your content."
     );
+    console.log("run 'npm run dev' to start the dev server");
   } catch (error) {
     console.error('Error:', error);
   }

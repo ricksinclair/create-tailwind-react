@@ -32,6 +32,7 @@ int main(int argc, char *argv[]) {
     printf("The new ./src/index.scss file has been created with the specified contents.\n");
     printf("The new vite.config.js file has been created with the specified contents.\n");
     printf("Start using Tailwind's utility classes to style your content.\n");
+    printf("Run 'npm run dev' to start the development server.\n");
 
     return 0;
 }
