@@ -1,13 +1,14 @@
 {
   "name": "create-tailwind-react",
-  "version": "1.0.4",
+  "version": "1.0.5",
   "description": "A utility for createing a react typescript tailwind project with scss support",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "echo \"Error: no test specified\" && exit 1"
   },
   "bin": {
-    "create-tailwind-react": "index.js"
+    "create-tailwind-react": "node index.js"
   },
   "repository": {
     "type": "git",
