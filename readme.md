@@ -5,6 +5,7 @@ preferences:
 
 1. 🌟 C Version (create-tailwind-react.c)
 2. 🐚 Shell Script Version (create-tailwind-react.sh)
+3. Node.js Version (create-tailwind-react.js)
 
 ## Usage
 
@@ -18,7 +19,14 @@ preferences:
 1. Make the script executable: `chmod +x create-tailwind-react.sh`
 2. Run the script with your desired project name: `./create-tailwind-react.sh <your_project_name>`
 
-Both versions will create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
+### Node.js Version
+
+1. Install Node.js on your machine if you haven't already.
+2. Open a terminal and navigate to the directory where the `create-tailwind-react.js` file is located.
+3. Run `node create-tailwind-react.js <your_project_name>` to create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
+
+
+All versions will create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
 
 After running the script, start using Tailwind's utility classes to style your content! 🎨
 
