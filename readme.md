@@ -10,7 +10,7 @@ preferences:
 
 ## Usage
 
-Before running any of the scripts or even the npm version, make sure you have Vite & node.js installed. If you haven't installed Vite yet, run `npm install -g vite` in your terminal.
+Before running any of the scripts or even the npm version, make sure you have node.js installed. If you haven't installed node yet, run `brew install node` in your terminal( Mac). For other systems please use built in package managers or find installers for your system type located at nodejs.org .
 
 ### 📦 NPM usage
 
