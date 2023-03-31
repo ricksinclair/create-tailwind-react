@@ -16,9 +16,9 @@ Before running any of the scripts or even the npm version, make sure you have no
 
 In a terminal run the following:
 
-'''
+```
 npx create-tailwind-react <your-project-name>
-'''
+```
 
 ### 🌟 C Version
 
