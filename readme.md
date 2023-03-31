@@ -9,6 +9,9 @@ preferences:
 
 ## Usage
 
+Before running any of the scripts, make sure you have Vite installed. If you haven't installed Vite yet, run `npm install -g vite` in your terminal.
+
+
 ### 🌟 C Version
 
 1. Compile the C file: `gcc create-tailwind-react.c -o create-tailwind-react`
