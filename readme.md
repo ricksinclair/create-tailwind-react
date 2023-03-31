@@ -11,6 +11,23 @@ preferences:
 
 Before running any of the scripts, make sure you have Vite installed. If you haven't installed Vite yet, run `npm install -g vite` in your terminal.
 
+You can use an IDE like Visual Studio Code or WebStorm to edit your new React project. To open your project in an IDE:
+
+### Visual Studio Code
+
+1. Open Visual Studio Code and go to `View -> Command Palette`.
+2. Type `install` in the command palette and select `Shell Command: Install 'code' command in PATH`.
+3. Restart your terminal.
+4. Navigate to your project directory in the terminal.
+5. Type `code .` to open the current directory in Visual Studio Code.
+
+### WebStorm
+
+1. Open WebStorm and go to `Tools -> Create Command-line Launcher`.
+2. Choose the installation directory for the launcher and click `OK`.
+3. Open your terminal and navigate to your project directory.
+4. Type `webstorm` in the terminal to launch WebStorm. If you're on Windows, you may need to use `webstorm64` instead.
+
 
 ### 🌟 C Version
 
