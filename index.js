@@ -1,3 +1,5 @@
+#!/usr/bin/env node
+
 const { exec } = require('child_process');
 const fs = require('fs');
 const path = require('path');
@@ -7,7 +9,8 @@ if (process.argv.length < 3) {
   process.exit(1);
 }
 
-const projectName = process.argv[2];
+const [, , ...args] = process.argv;
+const projectName = args[0];
 const projectPath = path.join(process.cwd(), projectName);
 
 async function runCommand(command) {
