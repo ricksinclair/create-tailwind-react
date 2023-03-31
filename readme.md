@@ -42,4 +42,12 @@ After running the script, start using Tailwind's utility classes to style your c
 
 💡 Don't forget to check the generated `tailwind.config.js` and `src/index.scss` files.
 
+# Start your engines! 🏎️
+
+## Start the local dev server:
+
+```
+npm run dev
+```
+
 🎉 Happy coding! 🥳
