@@ -1,18 +1,16 @@
 # 🚀 Create a React-Tailwind Project
 
-This repository provides a few convenient scripts to create a new React project using Vite and configure it with Tailwind CSS(with scss support) and TypeScript. Choose the version that suits your
+This repository provides a few convenient scripts to create a new React project using Vite and configure it with Tailwind CSS and TypeScript. Choose the version that suits your
 preferences:
 
-1. NPM usage
-2. 🌟 C Version (create-tailwind-react.c)
-3. 🐚 Shell Script Version (create-tailwind-react.sh)
-4. Node.js Version (create-tailwind-react.js).
+* NPX usage
+* Node.js Version (create-tailwind-react.js).
 
 ## Usage
 
 Before running any of the scripts or even the npm version, make sure you have node.js installed. If you haven't installed node yet, run `brew install node` in your terminal( Mac). For other systems please use built in package managers or find installers for your system type located at nodejs.org .
 
-### 📦 NPM usage
+### 📦 NPX usage
 
 In a terminal run the following:
 
@@ -20,15 +18,7 @@ In a terminal run the following:
 npx create-tailwind-react <your-project-name>
 ```
 
-### 🌟 C Version
 
-1. Compile the C file: `gcc create-tailwind-react.c -o create-tailwind-react`
-2. Run the compiled binary with your desired project name: `./create-tailwind-react <your_project_name>`
-
-### 🐚 Shell Script Version
-
-1. Make the script executable: `chmod +x create-tailwind-react.sh`
-2. Run the script with your desired project name: `./create-tailwind-react.sh <your_project_name>`
 
 ### Node.js Version
 
