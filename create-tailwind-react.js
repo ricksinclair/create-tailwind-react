@@ -121,7 +121,9 @@ export default App;
     console.log(
       "Start using Tailwind's utility classes to style your content."
     );
-    console.log("run 'npm run dev' to start the development server.");
+    console.log(
+      "run 'npm run dev' to start the development server.\n Happy Hacking! 💡"
+    );
   } catch (error) {
     console.error('Error:', error);
   }

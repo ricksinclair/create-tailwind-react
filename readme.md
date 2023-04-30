@@ -21,14 +21,14 @@ npx create-tailwind-react <your-project-name>
 ### Node.js Version
 
 1. Install Node.js on your machine if you haven't already.
-2. Open a terminal and navigate to the directory where the `create-tailwind-react.js` file is located.
-3. Run `node create-tailwind-react.js <your_project_name>` to create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
+2. Run `npm i -g create-tailwind-react` to install globally on your machine.
+3. Run `create-tailwind-react <your_project_name>` to create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
 
 All versions will create a new React project with Vite, install Tailwind CSS and its dependencies, and update the project configuration files.
 
 After running the script, start using Tailwind's utility classes to style your content! 🎨
 
-💡 Don't forget to check the generated `tailwind.config.js` and `src/index.scss` files.
+💡 Don't forget to check the generated `tailwind.config.js` and `src/index.css` files.
 
 # Start your engines! 🏎️
 
