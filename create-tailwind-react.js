@@ -63,15 +63,21 @@ function App() {
               Let's get started.
             </h2>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 hover:underline hover:text-blue-700">
-              <a href="https://www.tailwindcss.com/docs/utility-first"> View the docs</a>
+              <a href="https://tailwindcss.com/docs/utility-first">
+                {' '}
+                View the docs
+              </a>
             </p>
             <div className="mt-10 flex items-center justify-center gap-x-6">
-              <a
-                href="https://www.RefactoringUI.com"
+              <button
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
+                data-about="This is a great book on how Tailwind is a design system. Highly recommended."
+                onClick={() =>
+                  window.open('https://RefactoringUI.com', '_blank')
+                }
               >
                 RefactoringUI Book
-              </a>
+              </button>
               <a
                 href="https://www.youtube.com/watch?v=ZuLn42merAg"
                 className="text-sm font-semibold leading-6 text-gray-900"
@@ -93,6 +99,10 @@ function App() {
 export default App;
 `;
     fs.writeFileSync(appTsPath, appTsContent);
+
+    //Make app.css blonk
+    const appCssPath = path.join(projectPath, 'src', 'App.css');
+    fs.writeFileSync(appCssPath, '');
 
     // Replace the content of src/index.scss
     const indexCssPath = path.join(projectPath, 'src', 'index.css');

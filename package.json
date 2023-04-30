@@ -1,6 +1,6 @@
 {
   "name": "create-tailwind-react",
-  "version": "1.0.19",
+  "version": "1.0.20",
   "description": "A utility for createing a react typescript tailwind project with scss support",
   "main": "index.js",
   "scripts": {
