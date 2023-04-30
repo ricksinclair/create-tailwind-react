@@ -1,6 +1,6 @@
 {
   "name": "create-tailwind-react",
-  "version": "1.0.22",
+  "version": "2.0.0",
   "description": "A utility for createing a react typescript tailwind project with scss support",
   "main": "index.js",
   "scripts": {
@@ -16,9 +16,11 @@
   "keywords": [
     "tailwind",
     "tailwindcss",
-    "scss",
     "typescript",
-    "vite"
+    "vite",
+    "react",
+    "heroicons",
+    "headlessui"
   ],
   "author": "Ulric Todman",
   "license": "MIT",
