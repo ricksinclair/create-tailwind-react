@@ -49,7 +49,6 @@ async function runCommand(command) {
 
     const appTsPath = path.join(projectPath, 'src', 'App.tsx');
     const appTsContent = `import React from 'react';
-import './index.css';
 
 function App() {
   return (
