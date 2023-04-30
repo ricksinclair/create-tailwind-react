@@ -1,10 +1,10 @@
 # 🚀 Create a React-Tailwind Project
 
-This repository provides a few convenient scripts to create a new React project using Vite and configure it with Tailwind CSS and TypeScript. Choose the version that suits your
+This repository provides a few convenient scripts to create a new React project using Vite and configure it with Tailwind CSS and TypeScript. It also adds HeadlessUI and HeroIcons so that TailwindUI components work 'out of the box'. Choose the version that suits your
 preferences:
 
-* NPX usage
-* Node.js Version (create-tailwind-react.js).
+- NPX usage
+- Node.js Version (create-tailwind-react.js).
 
 ## Usage
 
@@ -17,8 +17,6 @@ In a terminal run the following:
 ```
 npx create-tailwind-react <your-project-name>
 ```
-
-
 
 ### Node.js Version
 
