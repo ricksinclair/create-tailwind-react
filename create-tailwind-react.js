@@ -92,6 +92,7 @@ function App() {
 
 export default App;
 `;
+    fs.writeFileSync(appTsPath, appTsContent);
 
     // Replace the content of src/index.scss
     const indexCssPath = path.join(projectPath, 'src', 'index.css');
