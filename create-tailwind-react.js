@@ -30,7 +30,7 @@ async function runCommand(command) {
     );
     // Install dependencies and set up Tailwind CSS
     await runCommand(
-      `cd ${projectName} && npm install -D tailwindcss postcss autoprefixer sass`
+      `cd ${projectName} && npm install -D tailwindcss postcss autoprefixer`
     );
     await runCommand(`cd ${projectName} && npx tailwindcss init -p`);
 
@@ -46,19 +46,19 @@ async function runCommand(command) {
     fs.writeFileSync(tailwindConfigPath, tailwindConfigContent);
 
     // Replace the content of src/index.scss
-    const indexScssPath = path.join(projectPath, 'src', 'index.scss');
-    const indexScssContent = `@tailwind base;
+    const indexCssPath = path.join(projectPath, 'src', 'index.css');
+    const indexCssContent = `@tailwind base;
 @tailwind components;
 @tailwind utilities;
 `;
 
-    fs.writeFileSync(indexScssPath, indexScssContent);
+    fs.writeFileSync(indexCssPath, indexCssContent);
 
     console.log(
       'The new tailwind.config.js file has been created with the specified contents.'
     );
     console.log(
-      'The new ./src/index.scss file has been created with the specified contents.'
+      'The new ./src/index.css file has been created with the specified contents.'
     );
     console.log(
       "Start using Tailwind's utility classes to style your content."
