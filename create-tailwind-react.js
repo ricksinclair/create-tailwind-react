@@ -52,22 +52,28 @@ async function runCommand(command) {
 
 function App() {
   return (
-     <div className="App min-h-screen h-max flex flex-col items-center justify-center">
-      <div className="bg-white">
-        <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8">
+    <div className="App min-h-screen h-max flex flex-col items-center justify-center text-center">
+      <div className="bg-white border border-gray-200">
+        <div className="px-6 py-24 sm:px-6 sm:py-32 lg:px-8  ">
           <div className="mx-auto max-w-2xl text-center">
-            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl">
+            <h2 className="text-3xl font-bold tracking-tight text-gray-900 sm:text-4xl mb-2">
               You are now using TailwindCSS!
-              <br />
-              Let's get started.
             </h2>
+
+            <h4>
+              To get started, remove the contents of this file (App.tsx) and add
+              your own content.
+            </h4>
+            <small className="text-gray-600">
+              {' '}
+              Don't forget to remove the styles from the parent div!{' '}
+            </small>
             <p className="mx-auto mt-6 max-w-xl text-lg leading-8 text-gray-600 hover:underline hover:text-blue-700">
               <a href="https://tailwindcss.com/docs/utility-first">
-                {' '}
                 View the docs
               </a>
             </p>
-            <div className="mt-10 flex items-center justify-center gap-x-6">
+            <div className="mt-10 flex items-center justify-center gap-x-6 mb-10">
               <button
                 className="rounded-md bg-indigo-600 px-3.5 py-2.5 text-sm font-semibold text-white shadow-sm hover:bg-indigo-500 focus-visible:outline focus-visible:outline-2 focus-visible:outline-offset-2 focus-visible:outline-indigo-600"
                 data-about="This is a great book on how Tailwind is a design system. Highly recommended."
@@ -86,11 +92,11 @@ function App() {
             </div>
           </div>
         </div>
+        <small className="mt-10">
+          Not affiliated with TailwindCSS or RefactoringUI. Just spreading the
+          word.
+        </small>
       </div>
-      <small>
-        Not affiliated with TailwindCSS or RefactoringUI. Just spreading the
-        word.
-      </small>
     </div>
   );
 }
