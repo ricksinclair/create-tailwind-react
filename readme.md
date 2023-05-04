@@ -8,7 +8,7 @@ preferences:
 
 ## Usage
 
-Before running any of the scripts or even the npm version, make sure you have node.js installed. If you haven't installed node yet, run `brew install node` in your terminal( Mac). For other systems please use built in package managers or find installers for your system type located at[Node.js.org](https://nodejs.org/)> If you have already installed Node.js, please ensure that you have the latest version installed, as older versions may not function correctly. Verified to work on Node.js version 18.6 and NPM version 8.14 and higher.
+Before running any of the scripts or even the npm version, make sure you have node.js installed. If you haven't installed node yet, run `brew install node` in your terminal( Mac). For other systems please use built in package managers or find installers for your system type located at[Node.js.org](https://nodejs.org/). If you have already installed Node.js, please ensure that you have the latest version installed, as older versions may not function correctly. Verified to work on Node.js version 18.6 and NPM version 8.14 and higher.
 
 ### 📦 NPX usage (RECOMMENDED)
 
