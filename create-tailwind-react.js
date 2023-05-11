@@ -101,6 +101,7 @@ function App() {
               <a
                 href="https://tailwindcss.com/docs/utility-first"
                 className="hover:text-gray-500 visited:text-gray-700"
+                target="_blank"
               >
                 {' '}
                 View the docs
@@ -119,6 +120,7 @@ function App() {
               <a
                 href="https://www.youtube.com/watch?v=ZuLn42merAg"
                 className="text-sm font-semibold leading-6 text-gray-900"
+                target="_blank"
               >
                 Learn more <span aria-hidden="true">→</span>
               </a>
